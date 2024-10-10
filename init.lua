@@ -399,10 +399,13 @@ require('lazy').setup({
 
         -- Set the prompt position to on top
         defaults = {
-          layout_strategy = 'horizontal',
-          layout_config = {
-            prompt_position = 'top',
-          },
+          layout_strategy = 'flex',
+          -- Prompt position on top is not that great in practice since the results/picker
+          -- window will fill up from the bottom, creating a large gap between search text
+          -- and most relevant search results.
+          -- layout_config = {
+          --   prompt_position = 'top',
+          -- },
         },
       }
 
