@@ -89,7 +89,7 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.colorcolumn = '80'
-vim.opt.wrap = false
+vim.opt.wrap = true
 vim.opt.linebreak = true
 
 vim.opt.backup = false
