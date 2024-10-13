@@ -90,6 +90,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.colorcolumn = '80'
 vim.opt.wrap = false
+vim.opt.linebreak = true
 
 vim.opt.backup = false
 vim.opt.swapfile = false
